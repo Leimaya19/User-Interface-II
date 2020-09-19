@@ -1,1 +1,115 @@
-/* Add CSS styling here */
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&family=Great+Vibes&family=Parisienne&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant', serif;
+    background-image: 
+    
+}
+
+.container{
+    width: 1350px;
+    margin: 0 auto;
+    background-color: #F6DDCC;
+    
+}
+
+.nav-bar{
+    margin: 55px;
+    padding: 3px;
+   
+
+   
+}
+
+.nav-bar a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 24px;
+    border-radius: 3px;
+    
+}
+
+.header{
+    font-family: 'Cormorant', serif;
+    font-size: 35px;
+    color: white
+}
+
+.content-box{
+    display: flex;
+    padding: 20px;
+}
+
+.top-img{
+    width: 550px;
+}
+
+.content-info{
+    padding-left: 20px;
+}
+
+
+button{
+    border: none;
+    padding: 10px 32px;
+    border-radius: 5%;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    margin: 35px;
+  }
+  figure{
+    width: 200px;
+  }
+  figure img{
+    width: 100%;
+  }
+  figure figcaption{
+    text-align: center;
+  }
+
+
+  .gallery2{
+    display: flex;
+    justify-content: space-around;
+    margin: 35px;
+  }
+  figure{
+    width: 200px;
+  }
+  figure img{
+    width: 100%;
+  }
+  figure figcaption{
+    text-align: center;
+  }
+
+  .top-section {
+    height: 250px;
+    background-color: #04041b;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .top-h1 {
+    color: #E8E8E8;
+    font-size: 30px;
+    position: absolute;
+  }
+  
+  
+  .footer{
+      margin-top: 85px;
+  }
+
+ 
